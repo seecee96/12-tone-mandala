@@ -1,0 +1,35 @@
+body {
+  font-family: 'IM Fell Great Primer SC', serif;
+  margin: 2em;
+  font-size: 1em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.title {
+ 
+  font-family: 'IM Fell Great Primer SC', serif;
+   font-size: 1.25em;
+ 
+}
+
+.youmust {
+  display: flex;
+  font-family: 'IM Fell Great Primer SC', serif;
+ 
+}
+
+.parameter {
+ 
+  font-family: 'IM Fell Great Primer SC', serif;
+ 
+}
+.select {
+  display: flex;
+  font-family: 'IM Fell Great Primer SC', serif;
+    margin: 1.35em;
+ 
+}
