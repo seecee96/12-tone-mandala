@@ -749,6 +749,8 @@ if(isMobile==false){
         sel1.option('Great Gig',3);
       sel1.option('In A Sentimental Mood',19)
         sel1.option('Hey Jude',4);
+    sel1.option('Brahms',33);
+
 
 
     sel1.changed(songChange);
@@ -1080,6 +1082,7 @@ if(isMobile==false){
         sel1.option('Great Gig',3);
       sel1.option('In A Sentimental Mood',19)
         sel1.option('Hey Jude',4);
+    sel1.option('Brahms',33);
 
 
 
