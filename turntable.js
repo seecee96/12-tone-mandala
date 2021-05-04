@@ -133,6 +133,10 @@ class Turntable {
       this.record = stra;
     }
     
+     if (dj == 38) {
+      this.record = allc;
+    }
+    
     
     
     midiTest = this.record;

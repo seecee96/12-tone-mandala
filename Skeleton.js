@@ -179,7 +179,7 @@ text('Maj-2nd/Min-7th', 180, height-35);
     
      if(isMobile==true){
        text('Maj-2nd/Min-7th', 120, height-35);
-  //  text('(Whole Tone)', 156, height-65);
+   // text('(Whole Tone)', 156, height-65);
      }
     
          stroke(255, 255, 0);
@@ -312,7 +312,13 @@ text('Voices', 639, height-100);
     }
     
              if(title==10){
+               if(isSmall==false){
       text('Click play to start new song.', 377, 47);
+               }
+                 if(isSmall==true){
+      text('Click play to start new song.', 177, 27);
+               }
+               
     }
     
         if(title==11){
@@ -453,14 +459,42 @@ text('Voices', 639, height-100);
           if(isMobile==true){
         
                  textSize(42);
+                        if(isSmall==false){
             text('♈︎', CConcept.x-17, CConcept.y-30);
+                        }
+            
+              if(isSmall==true){
+            text('♈︎', CConcept.x-17, CConcept.y-8);
+                        }
+            if(isSmall==false){
     text('♓︎', FConcept.x-40, FConcept.y-28);
+            }
+            
+                if(isSmall==true){
+    text('♓︎', FConcept.x-40, FConcept.y-8);
+            }
         text('♒︎', BbConcept.x-75, BbConcept.y-20);
             text('♑︎', EbConcept.x-80, EbConcept.y+10);
                 text('♐︎', AbConcept.x-72, AbConcept.y+30);
                     text('♏︎', DbConcept.x-65, DbConcept.y+45);
+              if(isSmall==false){
+                        
                         text('♎︎', GbConcept.x-37, GbConcept.y+62);
+              }
+            
+              if(isSmall==true){
+                        
+                        text('♎︎', GbConcept.x-37, GbConcept.y+33);
+              }
+            
+                          if(isSmall==false){
+
                             text('♍︎', BConcept.x-5, BConcept.y+59);
+                          }
+              if(isSmall==true){
+
+                            text('♍︎', BConcept.x-5, BConcept.y+39);
+                          }
                                 text('♌︎', EConcept.x+25, EConcept.y+50);
                                     text('♋︎', AConcept.x+20, AConcept.y+30);
                                         text('♊︎', DConcept.x+23, DConcept.y+12);
