@@ -272,7 +272,10 @@ text('Voices', 639, height-100);
       }
   
     }
-    
+    if(isMobile==true){
+      
+      textSize(23)
+    }
     if (pauz==true){
       text('= Paused =',30,100)
       
@@ -313,10 +316,10 @@ text('Voices', 639, height-100);
     
              if(title==10){
                if(isMobile==false){
-      text('Click play to start new song.', 377, 47);
+      text("Click Play New Song To Start.", 377, 47);
                }
                    if(isMobile==true){
-      text('Click play to start new song.', 77, 47);
+      text("Click Play New Song To Start." , 77, 47);
                }
     }
     
@@ -412,7 +415,11 @@ text('Voices', 639, height-100);
      if(title==37){
       text("Now Playing:   Stravinsky - Rite of Spring", 23, 47);
     }
-   
+   if(clickMe==true){
+                      textSize(69);
+
+      text("CLICK ME TO START!!!", 3, 456);
+    }
 
     //////////////////////////////////
     ////////////////////////////////////

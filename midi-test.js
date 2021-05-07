@@ -4,7 +4,7 @@
 //data contains midiNote value first, then velocity value
 //anything with a metaType refers to setup info (such as time signature)
 
-let pauz = false
+let pauz = true
 
 
 class MidiPlayer {

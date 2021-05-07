@@ -14,9 +14,10 @@ if (heix<800){
   b=150
 }
 console.log("mobile?",isMobile)
-console.log(heix)
+console.log('height',heix)
 
-
+let initialClick = false
+let clickMe = true
 let slider
 let slider1
 let slider2
@@ -745,6 +746,8 @@ if(isMobile==false){
         sel1.option('Great Gig',3);
       sel1.option('In A Sentimental Mood',19)
         sel1.option('Hey Jude',4);
+      sel1.option('Brahms',33);
+
 
 
     sel1.changed(songChange);
@@ -985,6 +988,8 @@ if(isMobile==false){
         sel1.option('Great Gig',3);
       sel1.option('In A Sentimental Mood',19)
         sel1.option('Hey Jude',4);
+      sel1.option('Brahms',33);
+
 
 
 
@@ -1050,6 +1055,14 @@ function windowResized() {
 
 
 function mouseClicked(){
+  
+  if(initialClick==false){}
+ clickMe = false
+    if(initialClick==false){
+
+  pauz = false
+      initialClick = true
+    }
   Tone.start()
 }
 
@@ -1527,7 +1540,6 @@ function draw() {
 update()
   lineFactory.draw()
   circleFactory.draw(aliveDups,aliveDupCount,alivePitches)
- mouseClicked()
 
   maat(midiPlayer.activeArray,playerArray)
 
